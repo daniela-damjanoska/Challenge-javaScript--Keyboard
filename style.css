@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    background-color: black;
+    padding: 10vh 0; 
+}
+  
+h1,
+p {
+    margin-top: 0;
+}
+
+button  {
+    background-color: rgb(11, 17, 17, 0.4);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    color: white;
+    transition: background-color 0.3s ease-out;
+}
+
+button:hover {
+    background-color: rgb(11, 17, 17, 0.9);
+}
+
+.outer {
+    background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/img.jpeg") no-repeat bottom / cover;
+    height: 80vh;
+    text-align: center;
+}
+
+.inner-1 {
+    height: 45%;
+    padding: 50px 150px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.inner-2 {
+    background: rgb(255, 255, 255, 0.05);
+    align-items: center;
+    height: 55%;
+    padding-top: 7vh;
+}
+
+.letter {
+    padding: 10px 45px;
+}
+
+.space {
+    padding: 10px 148px;
+}
